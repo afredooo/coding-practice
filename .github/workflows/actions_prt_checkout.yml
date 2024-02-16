@@ -22,3 +22,6 @@ jobs:
       run: echo $arg1
       env:
         arg1: ${{ secrets.SECRET1 }}
+
+    - name: completely fake
+      run: echo bla
