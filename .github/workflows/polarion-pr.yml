@@ -25,3 +25,5 @@ jobs:
       - run: pip install commitizen
       - name: Check commit messages
         run: cz check --rev-range origin/${GITHUB_BASE_REF}..
+      - name: Wait
+        run: sleep 600s
